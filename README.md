@@ -1,4 +1,5 @@
 # audiodsp
+<img title="AudioDSP" alt="AudioDSP" src="audiodsp_logo.png">
 
 This repo explores digital signal processing of audio data. 
 
