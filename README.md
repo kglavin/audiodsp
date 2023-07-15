@@ -3,7 +3,8 @@
            alt="AudioDSP" 
            src="audiodsp_logo.png" 
            width="400" height="400">
-This repo explores digital signal processing of audio data.
+
+This repository explores digital signal processing of audio data.
 
 # Introduction to Audio Signal Processing
 Audio signal processing is the field of study that focuses on the analysis, manipulation, and synthesis of audio signals. It involves various techniques and algorithms to process and enhance audio signals, enabling us to improve audio quality, remove noise, extract information, and create special effects. Here's an outline of the key topics you would typically cover in an introductory course on audio signal processing:
