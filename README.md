@@ -1,9 +1,5 @@
 # audiodsp
-<img     style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 30%;"
-           title="AudioDSP" 
+<img       title="AudioDSP" 
            alt="AudioDSP" 
            src="audiodsp_logo.png" 
            width="400" height="400">
