@@ -2,7 +2,7 @@
 <img       title="AudioDSP" 
            alt="AudioDSP" 
            src="images/audiodsp_logo.png" 
-           width="400" height="400">
+           width="200" height="200">
 
 This repository explores digital signal processing of audio data.
 
@@ -19,7 +19,7 @@ Topics:
 <img       title="Audio Signals" 
            alt="Audio Signals" 
            src="images/audio_signal.png" 
-           width="400" height="400">
+           width="200" height="200">
 
 Audio signals are electrical representations of sound waves that can be perceived by human ears. They are characterized by various properties, including amplitude, frequency, and phase. Amplitude refers to the strength or intensity of the sound wave, which determines its volume or loudness. Frequency represents the rate at which the sound wave oscillates and determines the pitch or perceived musical note. Phase refers to the relative timing or position of the sound wave at a given point in time. Audio signals can be produced by various sources such as musical instruments, human voices, or electronic devices. Understanding the characteristics of audio signals is fundamental to audio signal processing as it enables us to analyze, manipulate, and synthesize these signals to achieve desired outcomes.
 
