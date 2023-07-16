@@ -15,6 +15,7 @@ Topics:
  - Analog and digital representations of audio signals
  - Sampling theorem and the Nyquist-Shannon sampling theorem
  - Basic concepts of audio digitization and quantization
+   
 <img       title="Audio Signals" 
            alt="Audio Signals" 
            src="images/audio_signal.png" 
