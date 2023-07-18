@@ -3,7 +3,7 @@ import wave
 import pyaudio
 import struct
 
-def simple_sine(frequency,name='sine.wav', duration=1, sample_rate=44100):
+def simple_sine(frequency,filename='sine.wav', duration=1, sample_rate=44100) -> int:
 
     # Calculate the number of frames
     num_frames = int(sample_rate * duration)
@@ -16,7 +16,7 @@ def simple_sine(frequency,name='sine.wav', duration=1, sample_rate=44100):
         data.append(sample)
 
     # Configure the wave file
-    wave_file = wave.open(name, "w")
+    wave_file = wave.open(filename, "w")
     wave_file.setnchannels(1)  # Mono audio
     wave_file.setsampwidth(2)  # 2 bytes per sample
     wave_file.setframerate(sample_rate)  # Sample rate
@@ -25,8 +25,9 @@ def simple_sine(frequency,name='sine.wav', duration=1, sample_rate=44100):
     # Write the audio data to the file
     wave_file.writeframes(b"".join([struct.pack("<h", int(sample * 32767)) for sample in data]))
     wave_file.close()
+    return num_frames
 
-def multi_sine(frequencies=[300,2000],name='sine.wav', duration=1, sample_rate=44100):
+def multi_sine(frequencies=[300,2000],filename='sine.wav', duration=1, sample_rate=44100) -> int: 
 
     # Calculate the number of frames
     num_frames = int(sample_rate * duration)
@@ -39,7 +40,7 @@ def multi_sine(frequencies=[300,2000],name='sine.wav', duration=1, sample_rate=4
         data.append(sample)
 
     # Configure the wave file
-    wave_file = wave.open(name, "w")
+    wave_file = wave.open(filename, "w")
     wave_file.setnchannels(1)  # Mono audio
     wave_file.setsampwidth(2)  # 2 bytes per sample
     wave_file.setframerate(sample_rate)  # Sample rate
@@ -48,3 +49,4 @@ def multi_sine(frequencies=[300,2000],name='sine.wav', duration=1, sample_rate=4
     # Write the audio data to the file
     wave_file.writeframes(b"".join([struct.pack("<h", int(sample * 32767)) for sample in data]))
     wave_file.close()
+    return num_frames

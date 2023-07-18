@@ -5,7 +5,7 @@ import struct
 import libaudio
 
 filename="sine300.wav"
-num_frames = libaudio.simple_sine(frequency=300, name=filename,duration=duration, sample_rate=sample_rate)
+num_frames = libaudio.simple_sine(frequency=300, filename=filename)
 
 # Play the generated audio sample
 p = pyaudio.PyAudio()
