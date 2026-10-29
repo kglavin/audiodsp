@@ -1,3 +1,8 @@
+Module 07: Audio Restoration and Enhancement
+
+Notebook:
+- [restoration.ipynb](restoration.ipynb): spectral subtraction and decision-directed Wiener noise reduction (on synthetic speech), adaptive noise cancellation with NLMS, click detection with linear prediction and least-squares AR interpolation, and de-clipping. Covers all four projects below.
+
 Here are some software mini projects that can be used to educate about the topic of Audio Restoration and Enhancement and its sub-topics:
 
 ## Noise Reduction Tool: Develop a software tool that allows users to apply different noise reduction techniques to audio signals. Users can input audio files with varying levels of background noise. The tool should provide options for adaptive filtering, spectral subtraction, or other noise reduction algorithms. Users can adjust parameters such as noise estimation, suppression levels, and observe the effects on the audio signal in real-time. This project will help understand different noise reduction techniques and their applications in audio restoration.

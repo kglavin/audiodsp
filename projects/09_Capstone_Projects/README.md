@@ -2,6 +2,9 @@ Module 09: Capstone Projects
 
 Each capstone combines several earlier modules into a complete application. The modules each one draws on are listed with it.
 
+Notebook:
+- [capstones.ipynb](capstones.ipynb): compact versions of all five, each measured against a known ground truth: a McLeod pitch tuner, a spectral-flux beat tracker, a speech front end (VAD, noise reduction, MFCCs), a telephone channel with echo cancellation and double-talk detection, and a moving source rendered for headphones. They run offline, frame by frame or block by block; live input would use the approach of `04_Real_time_Audio_Processing` section 7.
+
 ## Instrument Tuner:
  Build a tuner that listens to a microphone and shows the pitch of a played note and how far it is from the nearest equal-tempered note, in cents. Estimate pitch with autocorrelation or zero crossings, and check it against an FFT peak. Smooth the display so it does not jitter. Uses modules 01 (time-domain frequency measurement), 02 (FFT), 03 (filtering out hum and noise) and 04 (real-time input).
 

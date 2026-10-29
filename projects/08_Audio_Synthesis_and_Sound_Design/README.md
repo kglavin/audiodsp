@@ -1,3 +1,8 @@
+Module 08: Audio Synthesis and Sound Design
+
+Notebook:
+- [synthesis.ipynb](synthesis.ipynb): aliasing in naive, PolyBLEP and additive oscillators, ADSR envelopes, additive, subtractive (state-variable filter) and FM synthesis, the Karplus-Strong string with all-pass tuning, granular time stretching and pitch shifting, and drum sound design. Covers all four projects below.
+
 Here are some software mini projects that can be used to educate about the topic of Audio Synthesis and Sound Design and its sub-topics:
 
 ## Synthesizer Simulator: Develop a software tool that simulates a synthesizer and allows users to explore different audio synthesis techniques. Users can experiment with additive, subtractive, and granular synthesis methods. The tool should provide controls for adjusting parameters such as oscillator types, waveforms, envelope shapes, and filter characteristics. Users can play with these parameters in real-time and listen to the resulting synthesized sounds. This project will help understand the basics of audio synthesis techniques and their application in sound design.

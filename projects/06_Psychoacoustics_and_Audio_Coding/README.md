@@ -1,6 +1,9 @@
 Module 06: Psychoacoustics and Audio Coding
 
-Psychoacoustics is taught here, at the start of the coding module, because perceptual coding depends on it. No notebook yet.
+Psychoacoustics is taught here, at the start of the coding module, because perceptual coding depends on it.
+
+Notebook:
+- [psychoacoustics_and_coding.ipynb](psychoacoustics_and_coding.ipynb): threshold of hearing and critical bands, a masking model with a listening test, mu-law companding, a FLAC-style lossless coder (prediction and Rice coding), and a small MDCT perceptual coder compared with a coder that ignores hearing. Real MP3/AAC/FLAC encoders are not used, because they need external programs.
 
 Here are some software mini projects that can be used to educate about the topic of Psychoacoustics and Audio Coding and its sub-topics:
 

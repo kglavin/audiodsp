@@ -17,10 +17,10 @@ Each module uses only what earlier modules teach.
 | 03 Digital filters | [03_Digital_Filters](projects/03_Digital_Filters) | `filter_design_foundations`, `digital_filters`, `resampling` |
 | 04 Real-time audio processing | [04_Real_time_Audio_Processing](projects/04_Real_time_Audio_Processing) | `realtime_processing` |
 | 05 Audio effects | [05_Audio_Effects](projects/05_Audio_Effects) | `effects` |
-| 06 Psychoacoustics and audio coding | [06_Psychoacoustics_and_Audio_Coding](projects/06_Psychoacoustics_and_Audio_Coding) | none yet |
-| 07 Audio restoration and enhancement | [07_Audio_Restoration_and_Enhancement](projects/07_Audio_Restoration_and_Enhancement) | none yet |
-| 08 Audio synthesis and sound design | [08_Audio_Synthesis_and_Sound_Design](projects/08_Audio_Synthesis_and_Sound_Design) | none yet |
-| 09 Capstone projects | [09_Capstone_Projects](projects/09_Capstone_Projects) | none yet |
+| 06 Psychoacoustics and audio coding | [06_Psychoacoustics_and_Audio_Coding](projects/06_Psychoacoustics_and_Audio_Coding) | `psychoacoustics_and_coding` |
+| 07 Audio restoration and enhancement | [07_Audio_Restoration_and_Enhancement](projects/07_Audio_Restoration_and_Enhancement) | `restoration` |
+| 08 Audio synthesis and sound design | [08_Audio_Synthesis_and_Sound_Design](projects/08_Audio_Synthesis_and_Sound_Design) | `synthesis` |
+| 09 Capstone projects | [09_Capstone_Projects](projects/09_Capstone_Projects) | `capstones` |
 
 # Introduction to Audio Signal Processing
 Audio signal processing is the field of study that focuses on the analysis, manipulation, and synthesis of audio signals. It involves various techniques and algorithms to process and enhance audio signals, enabling us to improve audio quality, remove noise, extract information, and create special effects. The sections below outline the topics of each module, in course order:
