@@ -1,4 +1,11 @@
-Here are some software mini projects that can be used to educate about the topic of Audio Coding and Compression and its sub-topics:
+Module 06: Psychoacoustics and Audio Coding
+
+Psychoacoustics is taught here, at the start of the coding module, because perceptual coding depends on it. No notebook yet.
+
+Here are some software mini projects that can be used to educate about the topic of Psychoacoustics and Audio Coding and its sub-topics:
+
+## Hearing and Masking Explorer:
+ Build a tool that demonstrates the basic properties of hearing that audio coding relies on. Users should be able to play tones across the audible range at controlled levels, compare them with equal-loudness contours, and hear masking: a quiet tone close in frequency to a loud one becomes inaudible, while the same quiet tone further away stays audible. The tool should display critical bands on the Bark scale. This project will help understand why the ear ignores some parts of a signal, which lossy codecs exploit.
 
 ## Compression Ratio Comparison:
  Create a software tool that allows users to compare the compression ratios achieved by different audio compression algorithms. Users can input audio files of varying lengths and complexities. The tool should apply different compression algorithms, such as lossless and lossy compression, and display the resulting file sizes. Users can observe and analyze the trade-offs between compression ratio and audio quality for each algorithm. This project will help understand the principles of audio coding and compression, as well as the differences between lossless and lossy compression algorithms.

@@ -1,7 +1,11 @@
-Here are some software mini projects that can be used to educate about the topic of Audio Signals and its sub-topics:
+Module 00: Audio Signals, Sampling and Quantization
 
-## Audio Signal Visualization:
- Develop a software tool that allows users to visualize audio signals in the time and frequency domains. Users can input an audio file or generate audio signals of different frequencies and amplitudes. The tool should display the waveform of the audio signal in the time domain and provide a spectrogram or frequency spectrum representation in the frequency domain. This project will help students understand the characteristics of audio signals, such as amplitude, frequency, and phase, and how they are represented in different domains.
+Notebook:
+- [sampling_and_quantization.ipynb](sampling_and_quantization.ipynb): sampling and sinc reconstruction, spectral images and aliasing, the ADC/DAC chain and the aperture effect, mid-tread and mid-riser quantizers, SQNR, and RPDF vs TPDF dither. Covers all three projects below.
+
+Audio signal visualization in the time and frequency domains moved to `01_Discrete_Time_Signals_and_Systems` (waveforms) and `02_Frequency_Domain_Analysis` (spectra), because it relies on material taught there.
+
+Here are some software mini projects that can be used to educate about the topic of Audio Signals and its sub-topics:
 
 ## Audio Sampling and Reconstruction:
  Create a software application that demonstrates the process of audio sampling and reconstruction based on the Nyquist-Shannon sampling theorem. Users can select an audio signal and adjust the sampling rate to observe the effects on the reconstructed signal. The application should show the original and reconstructed waveforms to illustrate the importance of sampling at a rate higher than the Nyquist frequency. This project will help students grasp the concepts of audio digitization, quantization, and the sampling theorem.

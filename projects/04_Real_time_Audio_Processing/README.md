@@ -1,3 +1,10 @@
+Module 04: Real-time Audio Processing
+
+This module comes before effects, restoration and synthesis because they all run in real time in practice. It builds on section 2 of `03_Digital_Filters/digital_filters.ipynb`, which filters audio block by block and carries filter state between blocks.
+
+Notebook:
+- [realtime_processing.ipynb](realtime_processing.ipynb): the callback model and latency, stateful block processors (filter, feedback delay, gain smoothing), deadlines and dropouts on a simulated audio device, ring buffers and jitter buffers for streaming, partitioned convolution reverb, a phase-continuous synthesizer voice, and an optional live-audio cell using `sounddevice`. Covers all four projects below.
+
 Here are some software mini projects that can be used to educate about the topic of Real-time Audio Processing and its sub-topics:
 
 ## Real-time Audio Effects Processor: Develop a software application that allows users to apply real-time audio effects to incoming audio streams. Users can select different audio effects, such as reverb, delay, or distortion, and adjust the effect parameters in real-time. The application should interface with audio interfaces or microphone inputs, process the audio data in real-time, and output the processed audio. This project will help understand the basics of real-time audio processing systems and the application of audio effects in real-time scenarios.
