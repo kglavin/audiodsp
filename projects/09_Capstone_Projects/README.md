@@ -19,3 +19,19 @@ Notebook:
 
 ## Game Audio Scene:
  Create an interactive audio scene in which sound sources move around a listener. Position each source with panning or binaural rendering, add distance-dependent level and filtering, place the scene in a room with convolution reverb, and run it all in real time. Uses modules 03 (filters), 04 (real-time processing), 05 (spatial audio, reverb) and 08 (synthesized sound sources).
+
+## Further reading
+
+**Start here**
+- [Speech Processing for Machine Learning: Filter banks, Mel-Frequency Cepstral Coefficients (MFCCs) and What's In-Between](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html) (Haytham Fayek).
+- [librosa](https://librosa.org/doc/latest/index.html): the standard Python library for music and audio analysis, with ready-made onset, tempo, beat, pitch and MFCC functions to compare against.
+
+**Background**
+- [FMP chapter 6: Tempo and beat tracking](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C6/C6.html) (Meinard Müller, Jupyter notebooks).
+- D. P. W. Ellis, [Beat Tracking by Dynamic Programming](https://www.ee.columbia.edu/~dpwe/pubs/Ellis07-beattrack.pdf), Journal of New Music Research, 2007 (PDF).
+- [Echo suppression and cancellation](https://en.wikipedia.org/wiki/Echo_suppression_and_cancellation) and [Head-related transfer function](https://en.wikipedia.org/wiki/Head-related_transfer_function) (Wikipedia).
+
+**Going further**
+- [ITU-T G.168](https://www.itu.int/rec/T-REC-G.168): the standard for network echo cancellers.
+- P. McLeod and G. Wyvill, "A Smarter Way to Find Pitch", Proceedings of the International Computer Music Conference, 2005: the pitch method used in the tuner.
+- *Theory and Applications of Digital Speech Processing* (Lawrence R. Rabiner and Ronald W. Schafer, book).

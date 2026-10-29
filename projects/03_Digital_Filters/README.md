@@ -23,3 +23,17 @@ Here are some software mini projects that can be used to educate about the topic
 
 ## Sample-Rate Converter:
  Develop a converter between common sample rates such as 44.1 kHz and 48 kHz. Users should be able to compare naive decimation with filtered decimation, see the images created by zero-stuffing, and measure how the converter treats tones near the Nyquist frequency. This project will help understand anti-aliasing and anti-imaging filters and polyphase implementation.
+
+## Further reading
+
+**Start here**
+- [The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/) (Steven W. Smith, free online), chapters "Introduction to Digital Filters" and "Windowed-Sinc Filters".
+
+**Background**
+- [Introduction to Digital Filters](https://ccrma.stanford.edu/~jos/filters/) (Julius O. Smith III, free online book): z-transform, poles and zeros, filter structures, the bilinear transform.
+- [Audio EQ Cookbook](https://www.w3.org/TR/audio-eq-cookbook/) (Robert Bristow-Johnson, W3C note): the biquad formulas used in `audiodsp.rbj_biquad`.
+- [scipy.signal reference](https://docs.scipy.org/doc/scipy/reference/signal.html): the filter design functions used in the notebooks.
+
+**Going further**
+- [Digital Audio Resampling Home Page](https://ccrma.stanford.edu/~jos/resample/) (Julius O. Smith III): bandlimited interpolation and sample-rate conversion.
+- *Discrete-Time Signal Processing* (Alan V. Oppenheim and Ronald W. Schafer, book): the standard graduate textbook.

@@ -12,3 +12,19 @@ Here are some software mini projects that can be used to educate about the topic
 ## Sound Effects Design Tool: Build a software tool that focuses on sound design principles for creating virtual instruments and sound effects. Users can input audio files or generate simple audio signals. The tool should provide options to apply various sound design techniques, such as layering, modulation, filtering, and effects processing. Users can experiment with these techniques, adjust parameters, and listen to the modified sounds in real-time. The tool can also include visualization features to help understand the changes in the spectral content and dynamics of the sounds. This project will help explore the creative aspects of sound design and gain practical experience in designing virtual instruments and sound effects.
 
 ## Granular Synthesis Generator: Develop a software application that generates sounds using granular synthesis techniques. Users can input audio files or generate audio sequences. The application should provide controls for adjusting parameters such as grain size, density, pitch, and spatialization. Users can experiment with these parameters and listen to the resulting granulated sounds. The application should also provide visualizations to help understand the relationship between the input audio and the granular synthesis output. This project will help understand the principles of granular synthesis and its creative applications in sound design and audio synthesis.
+
+## Further reading
+
+**Start here**
+- [Learning Synths](https://learningsynths.ableton.com/) (Ableton): an interactive, in-browser introduction to synthesizers.
+- [Synth Secrets](https://www.soundonsound.com/series/synth-secrets-sound-sound) (Gordon Reid, Sound On Sound): a long-running article series on how synthesizers create sound.
+
+**Background**
+- [The Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques.htm) (Miller Puckette, free online book): oscillators, modulation, filters and sampling.
+- [The Karplus-Strong Algorithm](https://ccrma.stanford.edu/~jos/pasp/Karplus_Strong_Algorithm.html), in *Physical Audio Signal Processing* (Julius O. Smith III, free online book).
+- [Linear trapezoidal integrated state variable filter](https://cytomic.com/files/dsp/SvfLinearTrapOptimised2.pdf) (Andrew Simper, Cytomic, PDF): the SVF used in the subtractive synthesis section.
+
+**Going further**
+- V. Välimäki and A. Huovilainen, [Antialiasing Oscillators in Subtractive Synthesis](https://doi.org/10.1109/MSP.2007.323276), IEEE Signal Processing Magazine, 2007.
+- K. Karplus and A. Strong, [Digital Synthesis of Plucked-String and Drum Timbres](https://doi.org/10.2307/3680062), Computer Music Journal, 1983.
+- *Microsound* (Curtis Roads, book): granular synthesis in depth.

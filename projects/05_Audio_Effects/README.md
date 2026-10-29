@@ -25,3 +25,17 @@ Here are some software mini projects that can be used to educate about the topic
 
 ## Saturation and Oversampling:
  Create a saturation effect based on a nonlinear curve such as tanh. Users should be able to vary the drive and the oversampling factor, and see and hear the harmonics it creates and the aliased components that fold back below the Nyquist frequency. The tool should measure the largest aliased component, so users can compare oversampling factors and downsampling filters. This project will help students understand why nonlinear effects alias and how oversampling controls it.
+
+## Further reading
+
+**Start here**
+- Wikipedia: [Audio equalization](https://en.wikipedia.org/wiki/Equalization_(audio)), [Reverberation](https://en.wikipedia.org/wiki/Reverberation) and [Dynamic range compression](https://en.wikipedia.org/wiki/Dynamic_range_compression).
+
+**Background**
+- [Audio EQ Cookbook](https://www.w3.org/TR/audio-eq-cookbook/) (Robert Bristow-Johnson, W3C note): peaking and shelving filters.
+- [Artificial Reverberation](https://ccrma.stanford.edu/~jos/pasp/Artificial_Reverberation.html), in *Physical Audio Signal Processing* (Julius O. Smith III, free online book).
+- V. Välimäki, J. D. Parker, L. Savioja and others, [Fifty Years of Artificial Reverberation](https://doi.org/10.1109/TASL.2012.2189567), IEEE Transactions on Audio, Speech, and Language Processing, 2012.
+
+**Going further**
+- *DAFX: Digital Audio Effects* (Udo Zölzer, editor, book) and *Audio Effects: Theory, Implementation and Application* (Joshua D. Reiss and Andrew McPherson, book).
+- [DAFx conference](https://www.dafx.de/): the yearly research conference on digital audio effects, with open paper archives.

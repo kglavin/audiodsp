@@ -22,6 +22,24 @@ Each module uses only what earlier modules teach.
 | 08 Audio synthesis and sound design | [08_Audio_Synthesis_and_Sound_Design](projects/08_Audio_Synthesis_and_Sound_Design) | `synthesis` |
 | 09 Capstone projects | [09_Capstone_Projects](projects/09_Capstone_Projects) | `capstones` |
 
+## Learning resources
+Links for the course as a whole. Each module's README has its own reading list at three levels: **Start here** (introductions that assume little), **Background** (the theory behind the notebooks) and **Going further** (textbooks, standards and original papers).
+
+**Start here**
+- [Think DSP](https://greenteapress.com/wp/think-dsp/) (Allen B. Downey, free book): signal processing taught through Python code, with little math assumed.
+- [Digital Show & Tell](https://xiph.org/video/vid2.shtml) (Xiph.Org, video): sampling, quantization and dither demonstrated on real analog and digital equipment.
+
+**Background**
+- [The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/) (Steven W. Smith, free online): a readable, practical DSP textbook.
+- [Julius O. Smith III's online books](https://ccrma.stanford.edu/~jos/) (Stanford CCRMA, free): four books on the DFT, digital filters, physical modeling and spectral processing, all with audio applications. Linked from the modules where they apply.
+- [FMP notebooks](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html) (Meinard Müller): Jupyter notebooks accompanying the book *Fundamentals of Music Processing*.
+
+**Going further**
+- [Discrete-Time Signal Processing](https://ocw.mit.edu/courses/6-341-discrete-time-signal-processing-fall-2005/) (MIT OpenCourseWare 6.341): a full graduate course, based on Oppenheim and Schafer's textbook of the same name.
+- [Audio Signal Processing for Music Applications](https://www.coursera.org/learn/audio-signal-processing) (Coursera, Xavier Serra and Julius O. Smith III), with its Python tools in [sms-tools](https://github.com/MTG/sms-tools).
+- [scipy.signal reference](https://docs.scipy.org/doc/scipy/reference/signal.html): documentation for the library functions used throughout the notebooks.
+- *Audio Engineering Know It All* (Glen Ballou and others, Newnes, book): broad reference on audio engineering, including digital audio fundamentals.
+
 # Introduction to Audio Signal Processing
 Audio signal processing is the field of study that focuses on the analysis, manipulation, and synthesis of audio signals. It involves various techniques and algorithms to process and enhance audio signals, enabling us to improve audio quality, remove noise, extract information, and create special effects. The sections below outline the topics of each module, in course order:
 

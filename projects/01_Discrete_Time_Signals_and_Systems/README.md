@@ -20,3 +20,15 @@ Here are some software mini projects that can be used to educate about the topic
 ## LTI System Explorer:
  Build a software tool that tests whether a system is linear and time-invariant. Users can choose from systems such as a moving average, an echo, a distortion curve or a tremolo, or define their own. The tool should apply the superposition and time-shift tests to random inputs, report which properties hold, and show the impulse response of LTI systems. It should also run difference equations such as y[n] = x[n] + a y[n-1] and show how the feedback coefficient decides whether the impulse response decays or grows. This project will help students understand why LTI systems are described completely by their impulse response, and prepares the ground for IIR filters.
 
+## Further reading
+
+**Start here**
+- [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) (3Blue1Brown, video): convolution explained visually.
+- [Think DSP](https://greenteapress.com/wp/think-dsp/) (Allen B. Downey, free book): the chapters on LTI systems and convolution, in Python.
+
+**Background**
+- [The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/) (Steven W. Smith, free online), chapters "Linear Systems", "Convolution" and "Properties of Convolution".
+- [Introduction to Digital Filters](https://ccrma.stanford.edu/~jos/filters/) (Julius O. Smith III, free online book): difference equations, impulse responses and transfer functions.
+
+**Going further**
+- [Signals and Systems](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/) (MIT OpenCourseWare RES.6-007): Alan V. Oppenheim's lecture series.

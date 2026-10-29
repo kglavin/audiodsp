@@ -23,3 +23,17 @@ Here are some software mini projects that can be used to educate about the topic
 
 ## Audio Signal Visualization:
  Develop a software tool that allows users to visualize audio signals in the time and frequency domains. Users can input an audio file or generate audio signals of different frequencies and amplitudes. The tool should display the waveform of the audio signal in the time domain and provide a spectrogram or frequency spectrum representation in the frequency domain. This project will help students understand the characteristics of audio signals, such as amplitude, frequency, and phase, and how they are represented in different domains.
+
+## Further reading
+
+**Start here**
+- [But what is the Fourier Transform? A visual introduction](https://www.youtube.com/watch?v=spUNpyF58BY) (3Blue1Brown, video).
+
+**Background**
+- [Mathematics of the Discrete Fourier Transform](https://ccrma.stanford.edu/~jos/mdft/) (Julius O. Smith III, free online book).
+- [The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/) (Steven W. Smith, free online), chapters on the DFT and the FFT.
+- [FMP chapter 2: Fourier analysis of signals](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2.html) (Meinard Müller, Jupyter notebooks), including the STFT.
+
+**Going further**
+- [Spectral Audio Signal Processing](https://ccrma.stanford.edu/~jos/sasp/) (Julius O. Smith III, free online book): windows, the STFT, overlap-add and spectral modeling in depth.
+- F. J. Harris, [On the use of windows for harmonic analysis with the discrete Fourier transform](https://doi.org/10.1109/PROC.1978.10837), Proceedings of the IEEE, 1978: the classic comparison of window functions.

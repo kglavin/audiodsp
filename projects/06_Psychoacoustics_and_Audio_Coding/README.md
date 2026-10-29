@@ -21,3 +21,18 @@ Here are some software mini projects that can be used to educate about the topic
 
 ## Lossless Compression Demonstration:
  Build a software tool that demonstrates the principles and effectiveness of lossless compression algorithms on audio signals. Users can input audio files or generate audio sequences. The tool should apply lossless compression algorithms, such as Huffman coding or Lempel-Ziv-Welch (LZW) algorithm, and display the resulting compressed file size. Users can also observe and analyze the compression and decompression processes step by step. This project will help understand the concepts of lossless compression, entropy coding, and the preservation of audio fidelity in lossless compression algorithms.
+
+## Further reading
+
+**Start here**
+- [24/192 Music Downloads are Very Silly Indeed](https://people.xiph.org/~xiphmont/demo/neil-young.html) (Chris Montgomery, Xiph.Org): what human hearing can and cannot detect, and what that means for sample rates and bit depths.
+- [Psychoacoustics](https://en.wikipedia.org/wiki/Psychoacoustics) (Wikipedia).
+
+**Background**
+- T. Painter and A. Spanias, [Perceptual coding of digital audio](https://doi.org/10.1109/5.842996), Proceedings of the IEEE, 2000: a tutorial on masking models and perceptual coders.
+- [ITU-T G.711](https://www.itu.int/rec/T-REC-G.711): the mu-law and A-law telephone coding standard.
+- [RFC 9639: Free Lossless Audio Codec (FLAC)](https://www.rfc-editor.org/rfc/rfc9639): the FLAC format, including its predictors and Rice coding.
+
+**Going further**
+- [RFC 6716: Definition of the Opus Audio Codec](https://www.rfc-editor.org/rfc/rfc6716): a modern open perceptual codec, specified in full.
+- *Introduction to Digital Audio Coding and Standards* (Marina Bosi and Richard E. Goldberg, book) and *Psychoacoustics: Facts and Models* (Hugo Fastl and Eberhard Zwicker, book).

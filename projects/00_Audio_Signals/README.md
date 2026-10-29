@@ -15,3 +15,17 @@ Here are some software mini projects that can be used to educate about the topic
 
 ## Audio Quantization Effects:
  Develop a software application that demonstrates the effects of audio quantization on signal quality. Users can input an audio signal and adjust the bit depth to observe the impact on signal fidelity and dynamic range. The application should provide visual and audible comparisons between the original and quantized signals to illustrate the effects of quantization error. This project will help students grasp the basic concepts of audio digitization, quantization, and the trade-off between signal resolution and quantization noise.
+
+## Further reading
+
+**Start here**
+- [Digital Show & Tell](https://xiph.org/video/vid2.shtml) (Xiph.Org, video): sampling, band-limiting, quantization and dither, shown on an oscilloscope.
+- [A Digital Media Primer for Geeks](https://xiph.org/video/vid1.shtml) (Xiph.Org, video): how audio and video become numbers.
+
+**Background**
+- [The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/) (Steven W. Smith, free online), chapter "ADC and DAC".
+- [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) and [Dither](https://en.wikipedia.org/wiki/Dither) (Wikipedia).
+
+**Going further**
+- [Mathematics of the Discrete Fourier Transform](https://ccrma.stanford.edu/~jos/mdft/) (Julius O. Smith III, free online book): includes a proof of the sampling theorem.
+- *Audio Engineering Know It All* (book), chapter 14 "Digital Audio Fundamentals" (John Watkinson) and chapter 15 "Representation of Audio Signals" (Ian Sinclair and Allen Mornington-West).
